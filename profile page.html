@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hi I'm Angel</title>
+        <style>
+            body{
+                height: 100vh;
+                margin: 0;
+                background-color:pink;
+                }
+            nav{
+                background-color:palevioletred;
+                padding: 10px 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                  }
+            .nav-links{
+                display: flex;
+                gap: 20px;
+            }
+            .nav-links a{
+                text-decoration: none;
+                color: #333;
+                font-weight: bold;
+            }
+            .nav-links a:hover{
+                color: #5b344b;
+            }
+            .hero{
+                text-align: center;
+                padding: 50px;  
+                box-sizing: border-box;
+                width: 100%;
+            }
+            .hero h1{
+                font-size: 48px;
+                margin-bottom: 20px;
+                font-family: "Playfair Display", serif;
+                color: #5b344b;
+            }  
+            .hero p{
+                font-size: 24px;
+                margin-bottom: 30px;
+                font-family: "Great Vibes", cursive;
+                color: #78616f;
+            }
+            .profile-card{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 50px;
+                box-sizing: border-box;
+                background-color: plum;
+            }
+            .profile-image{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                margin-right: 30px;
+            }
+            .about-me{
+                max-width: 600px;
+            }
+            .skills{
+                display: flex;
+                justify-content: space-around;
+                padding: 50px;
+                box-sizing: border-box;
+                background-color:pink;
+            }
+            .skill-card{
+                text-align: center;
+                width: 30%;
+            }
+            .projects{
+                display: flex;
+                justify-content: space-around;
+                gap: 25px;;
+                padding: 30px;
+                flex-wrap: wrap;
+                background-color: peachpuff;
+            }
+          
+            .project-card{
+                text-align: center;
+                width: 250px;
+                box-sizing: border-box;
+                padding: 15px;
+                background-color:palevioletred;
+                border-radius:15px;
+            }
+            .project-card img{
+                width: 100%;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+            .project-card h2{
+                font-size: 20px;
+                color: #5b344b;
+            }
+            .profile-card p{
+                font-size: 14px;
+                color: #78616f;
+                line-height: 1.5;
+
+            }
+            .contact{
+                text-align: center;
+                padding: 50px;
+                box-sizing: border-box;
+                background-color: palevioletred;
+            }
+            .footer{
+                text-align: center;
+                padding: 20px;
+                box-sizing: border-box;
+                background-color:plum;
+            }
+
+        </style>
+         </head>
+    <body>
+        <nav>
+             <div class="logo">
+                <h2>Angel's Profile</h2>
+            
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+             </nav>
+           
+        <div class="hero">
+            <h1>Hi, I'm Angel</h1>
+            <p>Welcome to my personal profile!</p>
+        </div>
+        <div class="Profile-card">
+            <img src="Pictures/Camera Roll/profileimage.jpg" alt="Profile Image" class="profile-image">
+            <div class="about-me">
+                <h2>About Me</h2>
+                <p>I am a passionate web developer with a love for creating beautiful and functional websites. I enjoy learning new technologies and improving my skills.</p>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="skill-card">
+                <h2>HTML</h2>
+                <p>Proficient in creating structured web pages using HTML5.</p>
+            </div>
+            <div class="skill-card">
+                <h2>CSS</h2>
+                <p>Skilled in styling web pages with CSS3, including Flexbox and Grid.</p>
+            </div>
+            <div class="skill-card">
+                <h2>JavaScript</h2>
+                <p>Experienced in adding interactivity to web pages using JavaScript.</p>
+            </div>
+        </div>
+        <div class="projects">
+            <div class="project-card">
+                <img src="Pictures/Camera Roll/calculator.jpg" alt="Calulator">
+                <h2>Project 1</h2>
+                <p>A responsive calculator built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project-card">
+                <img src="Pictures/Camera Roll/web.jpg" alt=" Web">
+                <h2>Project 2</h2>
+                <p>A bakery landing page built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project-card">
+                <img src="Pictures/Camera Roll/tc - Copy (2).jpg" alt="Tempreture Converter">
+                <h2>Project 3</h2>
+                <p>A responsive temperature converter built with HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <p>Email:a46565784@gmail.com</p>
+            <p>Phone:+234 90 3815 6656</p>
+        </div>
+    </body>
+</html>
